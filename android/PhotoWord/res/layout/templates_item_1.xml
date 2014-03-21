@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="12dp"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center_vertical"
+    android:padding="6dp" >
+
+    <ImageView
+        android:id="@+id/picx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:padding="0dp"
+        android:src="@drawable/example" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/picx"
+        android:layout_alignTop="@id/picx"
+        android:background="@color/dcm_black_color"
+        android:padding="5dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/picx"
+        android:layout_alignRight="@id/picx"
+        android:background="@color/dcm_black_color"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

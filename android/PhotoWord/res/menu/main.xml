@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dacopancm.photoword.views.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tmp_templates"
+        android:orderInCategory="101"
+        android:title="@string/title_activity_templates"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tmp_sharex"
+        android:orderInCategory="101"
+        android:title="@string/title_activity_templates"
+        app:showAsAction="never"/>
+
+</menu>
