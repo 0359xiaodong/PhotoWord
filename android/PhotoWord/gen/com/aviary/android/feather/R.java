@@ -673,7 +673,7 @@ public final class R {
 		public static final int normal = 0x7f060001;
 		public static final int pressed = 0x7f060003;
 		public static final int selected = 0x7f060005;
-		public static final int shadow = 0x7f0600e5;
+		public static final int shadow = 0x7f0600e6;
 		public static final int size_preview = 0x7f0600bb;
 		public static final int text = 0x7f060072;
 		public static final int text1 = 0x7f0600a7;

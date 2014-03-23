@@ -63,7 +63,7 @@
         <!--
         Cds Content Provider, 
         NOTE that the "authorities" value MUST be formatted in this way:
-        android:authorities="{your.packagename}.AviaryCdsProvider"
+        android:authorities="{your.packagename}.AviaryCdsProvider"
         -->
         <provider
             android:name="com.aviary.android.feather.cds.AviaryCdsProvider"
@@ -128,7 +128,7 @@
         </activity>
         <activity
             android:name="com.dacopancm.photoword.views.FullScreenViewActivity"
-            android:label="@string/title_activity_fragment_favs" >
+            android:label="@string/title_activity_FullScreenViewActivity" >
         </activity>
     </application>
 

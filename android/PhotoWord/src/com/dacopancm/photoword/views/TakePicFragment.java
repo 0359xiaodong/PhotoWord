@@ -2,8 +2,6 @@ package com.dacopancm.photoword.views;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import com.dacopancm.photoword.helpers.AlertDialogManager;
 import com.dacopancm.photoword.helpers.FileUtilities;
@@ -13,7 +11,6 @@ import com.facebook.SessionState;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.util.Log;

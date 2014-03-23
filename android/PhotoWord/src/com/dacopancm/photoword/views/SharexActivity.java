@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -45,7 +44,6 @@ import com.facebook.RequestAsyncTask;
 import com.facebook.Session;
 import com.facebook.SessionState;
 import com.facebook.Settings;
-import com.facebook.UiLifecycleHelper;
 
 /**
  * @author DarwinAlejandro
@@ -67,7 +65,6 @@ public class SharexActivity extends ActionBarActivity {
 	private TextView countx;
 	// FACEBOOK
 	private Session.StatusCallback statusCallback = new SessionStatusCallback();
-	private UiLifecycleHelper uiHelper;
 	private static final List<String> PERMISSIONS = Arrays
 			.asList("publish_actions");
 
@@ -86,8 +83,9 @@ public class SharexActivity extends ActionBarActivity {
 		}
 
 		// find Ui Controls on View
-		tcheck = (CheckBox) findViewById(R.id.tcheck);
+
 		facecheck = (CheckBox) findViewById(R.id.facecheck);
+		tcheck = (CheckBox) findViewById(R.id.tcheckx);
 		addfav = (CheckBox) findViewById(R.id.addfav);
 		bubble = (EditText) findViewById(R.id.bubble);
 		countx = (TextView) findViewById(R.id.countx);

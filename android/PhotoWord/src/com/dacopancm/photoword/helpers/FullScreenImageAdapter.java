@@ -2,6 +2,7 @@ package com.dacopancm.photoword.helpers;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Random;
 
 import android.app.Activity;
@@ -71,7 +72,7 @@ public class FullScreenImageAdapter extends PagerAdapter {
 
 		//
 		String filename = new File(_imagePaths.get(position)).getName();
-		labelx.setText(filename.split("_")[2].toUpperCase());
+		labelx.setText(filename.split("_")[2].toUpperCase(Locale.getDefault()));
 		labelx.setBackgroundColor(colorsdat[new Random().nextInt(11 - 0 + 1) + 0]);
 		// close button click event
 

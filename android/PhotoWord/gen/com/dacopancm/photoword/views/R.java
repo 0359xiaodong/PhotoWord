@@ -3254,9 +3254,9 @@ containing a value of this type.
         public static final int twitter=0x7f020124;
     }
     public static final class id {
-        public static final int GridLayout1=0x7f0600d9;
+        public static final int GridLayout1=0x7f0600da;
         public static final int LinearLayout1=0x7f06004b;
-        public static final int RelativeLayout1=0x7f0600de;
+        public static final int RelativeLayout1=0x7f0600df;
         public static final int action_bar=0x7f06002b;
         public static final int action_bar_activity_content=0x7f060024;
         public static final int action_bar_container=0x7f06002a;
@@ -3268,9 +3268,9 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060025;
         public static final int action_menu_presenter=0x7f060026;
         public static final int action_mode_close_button=0x7f060033;
-        public static final int action_settings=0x7f0600eb;
+        public static final int action_settings=0x7f0600ec;
         public static final int activity_chooser_view_content=0x7f060034;
-        public static final int addfav=0x7f060056;
+        public static final int addfav=0x7f060055;
         public static final int always=0x7f06001a;
         public static final int alwaysScroll=0x7f06000f;
         public static final int aviary_badge=0x7f06006f;
@@ -3347,7 +3347,7 @@ containing a value of this type.
         public static final int button1=0x7f0600a6;
         public static final int button2=0x7f0600a8;
         public static final int button3=0x7f0600aa;
-        public static final int cellx=0x7f0600df;
+        public static final int cellx=0x7f0600e0;
         public static final int checkbox=0x7f06003c;
         public static final int checked=0x7f060004;
         public static final int clorox=0x7f0600bc;
@@ -3374,7 +3374,7 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_login_button=0x7f0600d2;
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f0600d0;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f0600d1;
-        public static final int countx=0x7f060058;
+        public static final int countx=0x7f060057;
         public static final int default_activity_button=0x7f060037;
         public static final int dialog=0x7f06001d;
         public static final int disableHome=0x7f060017;
@@ -3392,11 +3392,11 @@ containing a value of this type.
         public static final int end=0x7f060022;
         public static final int expand_activities_button=0x7f060035;
         public static final int expanded_menu=0x7f06003b;
-        public static final int facebookSwitch=0x7f0600d7;
-        public static final int facecheck=0x7f060055;
+        public static final int facebookSwitch=0x7f0600d8;
+        public static final int facecheck=0x7f060054;
         public static final int feather_dialogs_container=0x7f060095;
-        public static final int geometry=0x7f0600e3;
-        public static final int grid_view=0x7f0600d4;
+        public static final int geometry=0x7f0600e4;
+        public static final int grid_view=0x7f0600d5;
         public static final int home=0x7f060023;
         public static final int homeAsUp=0x7f060014;
         public static final int horizontal=0x7f06000d;
@@ -3406,23 +3406,23 @@ containing a value of this type.
         public static final int image_loading_view=0x7f060094;
         public static final int image_original=0x7f060093;
         public static final int imagegl=0x7f060065;
-        public static final int imgDisplay=0x7f0600dc;
+        public static final int imgDisplay=0x7f0600dd;
         public static final int imgView=0x7f06004d;
         public static final int inword=0x7f06004f;
-        public static final int labelx=0x7f0600dd;
+        public static final int labelx=0x7f0600de;
         public static final int large=0x7f060002;
         public static final int listMode=0x7f060010;
         public static final int list_item=0x7f060038;
         public static final int listtemplates=0x7f06005b;
         public static final int main_content=0x7f06008f;
-        public static final int menu_cancel=0x7f0600e8;
-        public static final int menu_del=0x7f0600ea;
-        public static final int menu_done=0x7f0600e7;
-        public static final int menu_edit=0x7f0600e6;
-        public static final int menu_share=0x7f0600e9;
-        public static final int messageTextViewFromLoading=0x7f0600e4;
-        public static final int messfacebook=0x7f0600d8;
-        public static final int messtwitter=0x7f0600d6;
+        public static final int menu_cancel=0x7f0600e9;
+        public static final int menu_del=0x7f0600eb;
+        public static final int menu_done=0x7f0600e8;
+        public static final int menu_edit=0x7f0600e7;
+        public static final int menu_share=0x7f0600ea;
+        public static final int messageTextViewFromLoading=0x7f0600e5;
+        public static final int messfacebook=0x7f0600d9;
+        public static final int messtwitter=0x7f0600d7;
         public static final int middle=0x7f060021;
         public static final int navbar_button1=0x7f060099;
         public static final int navbar_button2=0x7f06009d;
@@ -3434,20 +3434,21 @@ containing a value of this type.
         public static final int navbar_text1=0x7f060096;
         public static final int navbar_text2=0x7f06009a;
         public static final int never=0x7f060018;
+        public static final int nofavs=0x7f0600d4;
         public static final int nonblank=0x7f060071;
         public static final int none=0x7f06001f;
         public static final int normal=0x7f060001;
         public static final int pager=0x7f060050;
-        public static final int piccamera=0x7f0600da;
-        public static final int picgallery=0x7f0600db;
+        public static final int piccamera=0x7f0600db;
+        public static final int picgallery=0x7f0600dc;
         public static final int picker_subtitle=0x7f0600cd;
-        public static final int picx=0x7f0600e0;
+        public static final int picx=0x7f0600e1;
         public static final int pressed=0x7f060003;
         public static final int progress_circular=0x7f060027;
         public static final int progress_horizontal=0x7f060028;
         public static final int progressx=0x7f06005a;
         public static final int radio=0x7f06003e;
-        public static final int scrollView1=0x7f060052;
+        public static final int scrollView1=0x7f060058;
         public static final int search_badge=0x7f060041;
         public static final int search_bar=0x7f060040;
         public static final int search_button=0x7f060042;
@@ -3460,7 +3461,7 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f06004a;
         public static final int selected=0x7f060005;
         public static final int settingsfrag=0x7f0600d3;
-        public static final int shadow=0x7f0600e5;
+        public static final int shadow=0x7f0600e6;
         public static final int shortcut=0x7f06003d;
         public static final int showCustom=0x7f060016;
         public static final int showHome=0x7f060013;
@@ -3470,24 +3471,22 @@ containing a value of this type.
         public static final int split_action_bar=0x7f06002d;
         public static final int submit_area=0x7f060048;
         public static final int tabMode=0x7f060011;
-        public static final int tcheck=0x7f060053;
+        public static final int tcheckx=0x7f060052;
         public static final int text=0x7f060072;
         public static final int text1=0x7f0600a7;
         public static final int text2=0x7f0600a9;
         public static final int text3=0x7f0600ab;
-        public static final int textView1=0x7f060054;
+        public static final int textView1=0x7f060053;
         public static final int textView2=0x7f06004c;
-        public static final int textView3=0x7f060057;
-        public static final int texto1=0x7f0600e1;
-        public static final int texto2=0x7f0600e2;
+        public static final int textView3=0x7f060056;
+        public static final int texto1=0x7f0600e2;
+        public static final int texto2=0x7f0600e3;
         public static final int textviewx=0x7f06004e;
         public static final int title=0x7f06003a;
-        public static final int tmp_sharex=0x7f0600ed;
-        public static final int tmp_templates=0x7f0600ec;
         public static final int top_action_bar=0x7f06002f;
         public static final int top_down=0x7f060006;
         public static final int twitterLoginWebView=0x7f060051;
-        public static final int twitterSwitch=0x7f0600d5;
+        public static final int twitterSwitch=0x7f0600d6;
         public static final int up=0x7f060030;
         public static final int useLogo=0x7f060012;
         public static final int vertical=0x7f06000c;
@@ -3839,15 +3838,13 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0900c7;
         /**  TEMPLATES ACTIVITY 
+ TEMPLATES ACTIVITY 
          */
-        public static final int accent_color=0x7f0900df;
-        public static final int action_settings=0x7f0900ff;
-        public static final int add_fav=0x7f0900f5;
-        public static final int app_name=0x7f0900fb;
-        public static final int authenticating_your_app_message=0x7f0900cb;
-        /**  TWITTER 
-         */
-        public static final int authentication_done_now_post_tweet_or_image_text=0x7f0900c9;
+        public static final int accent_color=0x7f0900d9;
+        public static final int action_settings=0x7f0900f6;
+        public static final int add_fav=0x7f0900ec;
+        public static final int app_name=0x7f0900f2;
+        public static final int authenticating_your_app_message=0x7f0900ca;
         /**  
 	############################ MEME ####################
 	
@@ -3882,20 +3879,22 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_logged_in=0x7f090009;
         public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f09000a;
         public static final int confirm_quit_message=0x7f090099;
-        public static final int del_pic_dlg=0x7f0900de;
-        public static final int done=0x7f0900e6;
-        public static final int edit=0x7f0900e5;
-        public static final int editword_inword=0x7f0900ed;
-        public static final int editword_word=0x7f0900ec;
-        public static final int error_file_mess=0x7f0900fe;
-        public static final int error_no_save_fav=0x7f0900f7;
-        public static final int error_no_social=0x7f0900d7;
-        public static final int error_title=0x7f0900fd;
+        public static final int del_pic_dlg=0x7f0900d6;
+        public static final int done=0x7f0900e0;
+        public static final int edit=0x7f0900df;
+        public static final int editword_inword=0x7f0900e4;
+        public static final int editword_word=0x7f0900e3;
+        public static final int error_file_mess=0x7f0900f5;
+        public static final int error_no_save_fav=0x7f0900ee;
+        public static final int error_no_social=0x7f0900cf;
+        public static final int error_title=0x7f0900f4;
         /**  TWITTER END 
  FACEBOOK 
+ TWITTER END 
+ FACEBOOK 
          */
-        public static final int face_appid=0x7f0900d2;
-        public static final int facebook=0x7f0900d9;
+        public static final int face_appid=0x7f0900cc;
+        public static final int facebook=0x7f0900d1;
         public static final int feather_about_dialog_message=0x7f090032;
         public static final int feather_acc_a_sticker=0x7f090078;
         public static final int feather_acc_color=0x7f0900b0;
@@ -4055,62 +4054,65 @@ containing a value of this type.
         public static final int feather_yes_leave=0x7f09004d;
         public static final int feather_zoom_mode=0x7f090075;
         public static final int filter_name=0x7f09007f;
-        public static final int finding_word=0x7f0900e2;
-        public static final int hello_world=0x7f0900e7;
+        public static final int finding_word=0x7f0900dc;
         /**  toast 
+ toast 
          */
-        public static final int image_posted_on_twitter=0x7f0900ce;
-        public static final int menu_cancel=0x7f0900f2;
+        public static final int image_posted_on_twitter=0x7f0900cb;
+        public static final int menu_cancel=0x7f0900e9;
         /**  FAVS FRAGMENT 
+ FAVS FRAGMENT 
          */
-        public static final int menu_del=0x7f0900dd;
-        public static final int menu_edit=0x7f0900ee;
+        public static final int menu_del=0x7f0900d5;
+        public static final int menu_edit=0x7f0900e5;
         public static final int menu_premium=0x7f090088;
-        public static final int menu_share=0x7f0900f3;
-        public static final int no_config=0x7f0900da;
-        public static final int no_config_social=0x7f0900d6;
-        public static final int no_net=0x7f0900dc;
-        public static final int no_sdcard=0x7f0900fc;
+        public static final int menu_share=0x7f0900ea;
+        public static final int no_config=0x7f0900d2;
+        public static final int no_favs=0x7f0900d7;
+        public static final int no_net=0x7f0900d4;
+        public static final int no_sdcard=0x7f0900f3;
         /**  EDIT WORD ACTIVITY 
+ EDIT WORD ACTIVITY 
          */
-        public static final int no_word=0x7f0900e4;
-        /**  loading messages 
+        public static final int no_word=0x7f0900de;
+        /**  TWITTER 
+ loading messages 
+ TWITTER 
+ loading messages 
          */
-        public static final int please_wait_title=0x7f0900ca;
-        public static final int posting_image_message=0x7f0900cc;
-        public static final int posting_tweet_message=0x7f0900cd;
-        public static final int redes_sociales=0x7f0900f4;
-        public static final int sel_theme=0x7f0900e3;
-        public static final int si_config=0x7f0900db;
-        public static final int takepic01=0x7f0900d4;
-        public static final int takepic02=0x7f0900d5;
-        public static final int takepic03=0x7f0900eb;
-        public static final int texto_largo=0x7f0900f6;
-        public static final int theme_0_1=0x7f0900e0;
-        public static final int theme_0_2=0x7f0900e1;
-        public static final int title_activity_edit_word=0x7f0900ea;
-        public static final int title_activity_fragment_favs=0x7f0900e9;
-        public static final int title_activity_fragment_settings=0x7f0900e8;
+        public static final int please_wait_title=0x7f0900c9;
+        public static final int redes_sociales=0x7f0900eb;
+        public static final int sel_theme=0x7f0900dd;
+        public static final int si_config=0x7f0900d3;
         /**  FACEBOOK END 
  TAKE PIC FRAGMENT 
+ FACEBOOK END 
+ TAKE PIC FRAGMENT 
          */
-        public static final int title_activity_fragment_take_pic=0x7f0900d3;
-        public static final int title_activity_login_twitter=0x7f0900ef;
+        public static final int takepic01=0x7f0900cd;
+        public static final int takepic02=0x7f0900ce;
+        public static final int takepic03=0x7f0900e2;
+        public static final int texto_largo=0x7f0900ed;
+        public static final int theme_0_1=0x7f0900da;
+        public static final int theme_0_2=0x7f0900db;
+        public static final int title_activity_FullScreenViewActivity=0x7f0900d8;
+        public static final int title_activity_edit_word=0x7f0900e1;
+        public static final int title_activity_login_twitter=0x7f0900e6;
         /**  SHAREX ACTIVITY 
+ SHAREX ACTIVITY 
          */
-        public static final int title_activity_sharex=0x7f0900f1;
-        public static final int title_activity_templates=0x7f0900f0;
+        public static final int title_activity_sharex=0x7f0900e8;
+        public static final int title_activity_templates=0x7f0900e7;
         /**  MAIN ACTIVITY 
+ MAIN ACTIVITY 
          */
-        public static final int title_section1=0x7f0900f8;
-        public static final int title_section2=0x7f0900f9;
-        public static final int title_section3=0x7f0900fa;
-        public static final int tweet_posted_on_twitter=0x7f0900cf;
-        public static final int tweet_text=0x7f0900d1;
-        public static final int tweet_with_image_text=0x7f0900d0;
+        public static final int title_section1=0x7f0900ef;
+        public static final int title_section2=0x7f0900f0;
+        public static final int title_section3=0x7f0900f1;
         /**  SETTINGS FRAGMENT 
+ SETTINGS FRAGMENT 
          */
-        public static final int twitter=0x7f0900d8;
+        public static final int twitter=0x7f0900d0;
     }
     public static final class style {
         /** 

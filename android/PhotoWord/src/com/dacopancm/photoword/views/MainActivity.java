@@ -2,18 +2,8 @@ package com.dacopancm.photoword.views;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.Locale;
 
-import com.dacopancm.photoword.helpers.Const;
-import com.dacopancm.photoword.helpers.FileUtilities;
-
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
@@ -23,15 +13,18 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.dacopancm.photoword.helpers.Const;
+import com.dacopancm.photoword.helpers.FileUtilities;
 
 public class MainActivity extends ActionBarActivity implements
 		ActionBar.TabListener {
@@ -188,29 +181,20 @@ public class MainActivity extends ActionBarActivity implements
 			mViewPager.setCurrentItem(2);
 			return true;
 		}
-		case R.id.tmp_templates: {
-			Intent templatesI = new Intent(this, TemplatesActivity.class);
-			templatesI.putExtra("wordx", "12345678909876543210");
-			templatesI
-					.putExtra(
-							"imgsrc",
-							"/storage/sdcard/Android/data/com.dacopancm.photoword.views/files/Pictures/tmpPhotoWord.jpg");
-			startActivity(templatesI);
-			return true;
-		}
-		case R.id.tmp_sharex: {
-			//
-			String imageFileName = Const.PHOTOWORD_FILE_1;
-			File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-			File image = new File(storageDir, imageFileName);
-			//
-			Intent IShare = new Intent(this, SharexActivity.class);
-			IShare.putExtra("filename", image.getAbsolutePath());
-			IShare.putExtra("wordx", "dos");
-			IShare.putExtra("wordres", "#sod");
-			startActivityForResult(IShare, Const.GO_BACK_REQUEST);
-			return true;
-		}
+		/*
+		 * case R.id.tmp_templates: { Intent templatesI = new Intent(this,
+		 * TemplatesActivity.class); templatesI.putExtra("wordx",
+		 * "12345678909876543210"); templatesI .putExtra( "imgsrc",
+		 * "/storage/sdcard/Android/data/com.dacopancm.photoword.views/files/Pictures/tmpPhotoWord.jpg"
+		 * ); startActivity(templatesI); return true; } case R.id.tmp_sharex: {
+		 * // String imageFileName = Const.PHOTOWORD_FILE_1; File storageDir =
+		 * getExternalFilesDir(Environment.DIRECTORY_PICTURES); File image = new
+		 * File(storageDir, imageFileName); // Intent IShare = new Intent(this,
+		 * SharexActivity.class); IShare.putExtra("filename",
+		 * image.getAbsolutePath()); IShare.putExtra("wordx", "dos");
+		 * IShare.putExtra("wordres", "#sod"); startActivityForResult(IShare,
+		 * Const.GO_BACK_REQUEST); return true; }
+		 */
 		default:
 			return super.onOptionsItemSelected(item);
 		}

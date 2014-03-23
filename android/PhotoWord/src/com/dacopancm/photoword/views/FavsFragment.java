@@ -10,10 +10,9 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.GridView;
+import android.widget.TextView;
 
 import com.dacopancm.photoword.helpers.Const;
 import com.dacopancm.photoword.helpers.FileUtilities;
@@ -24,6 +23,7 @@ public class FavsFragment extends Fragment {
 	private ArrayList<String> imagePaths = new ArrayList<String>();
 	private GridViewImageAdapter adapter;
 	private GridView gridView;
+	private TextView nofavs;
 	private int columnWidth;
 
 	@Override
@@ -44,14 +44,20 @@ public class FavsFragment extends Fragment {
 
 		// loading all image paths from SD card
 		imagePaths = FileUtilities.getFilePaths(getActivity());
+		if (imagePaths.size() > 0) {
+			// Gridview adapter
+			adapter = new GridViewImageAdapter(getActivity(), imagePaths,
+					columnWidth);
 
-		// Gridview adapter
-		adapter = new GridViewImageAdapter(getActivity(), imagePaths,
-				columnWidth);
-
-		// setting grid view adapter
-		gridView.setAdapter(adapter);
-		adapter.notifyDataSetChanged();
+			// setting grid view adapter
+			gridView.setAdapter(adapter);
+			adapter.notifyDataSetChanged();
+			nofavs.setVisibility(View.INVISIBLE);
+			gridView.setVisibility(View.VISIBLE);
+		} else {
+			nofavs.setVisibility(View.VISIBLE);
+			gridView.setVisibility(View.INVISIBLE);
+		}
 
 	}
 
@@ -61,13 +67,10 @@ public class FavsFragment extends Fragment {
 		Log.e(TAG, "favsFragment onCreateView");
 		// Inflate the layout for this fragment
 		View view = inflater.inflate(R.layout.fragment_favs, container, false);
-		//
 		gridView = (GridView) view.findViewById(R.id.grid_view);
+		nofavs = (TextView) view.findViewById(R.id.nofavs);
 		// Initilizing Grid View
 		InitilizeGridLayout();
-		// updateUI();
-		// tmp
-
 		return view;
 	}
 

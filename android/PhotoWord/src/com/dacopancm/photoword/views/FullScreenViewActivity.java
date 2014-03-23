@@ -18,7 +18,6 @@ import com.dacopancm.photoword.helpers.AlertDialogManager;
 import com.dacopancm.photoword.helpers.Const;
 import com.dacopancm.photoword.helpers.FileUtilities;
 import com.dacopancm.photoword.helpers.FullScreenImageAdapter;
-import com.dacopancm.photoword.views.SharexActivity.DialogoCortarTexto;
 
 public class FullScreenViewActivity extends ActionBarActivity {
 	private ViewPager viewPager;

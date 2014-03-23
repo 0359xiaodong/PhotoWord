@@ -2,20 +2,12 @@
 <resources>
 
     <!-- TWITTER -->
-    <string name="authentication_done_now_post_tweet_or_image_text"> Your app is authenticated. Now  you can post tweet/image on twitter. </string>
-
     <!-- loading messages -->
-    <string name="please_wait_title"> Please wait </string>
-    <string name="authenticating_your_app_message"> Authenticating your app... </string>
-    <string name="posting_image_message"> Uploading image on twitter... </string>
-    <string name="posting_tweet_message"> Posting tweet on twitter... </string>
-
+    <string name="please_wait_title">Please wait </string>
+    <string name="authenticating_your_app_message">Authenticating&#8230;</string>
     <!-- toast -->
+    <string name="image_posted_on_twitter">Image posted on twitter successfully.</string>
 
-    <string name="image_posted_on_twitter"> Image posted on twitter successfully. </string>
-    <string name="tweet_posted_on_twitter"> Tweet posted on twitter successfully. </string>
-    <string name="tweet_with_image_text"> dummy tweet with image. </string>
-    <string name="tweet_text"> dummy tweet. </string>
     <!-- TWITTER END -->
 
 
@@ -25,59 +17,56 @@
 
 
     <!-- TAKE PIC FRAGMENT -->
-    <string name="title_activity_fragment_take_pic">Take Pic</string>
-    <string name="takepic01">Camara</string>
-    <string name="takepic02">Galería</string>
-    <string name="no_config_social">Primero configure una red social.</string>
-    <string name="error_no_social">Primero configure una red social para continuar.</string>
+    <string name="takepic01">Camera</string>
+    <string name="takepic02">Gallery</string>
+    <string name="error_no_social">First set up a social network to continue.</string>
 
     <!-- SETTINGS FRAGMENT -->
     <string name="twitter">Twitter</string>
     <string name="facebook">Facebook</string>
-    <string name="no_config">No Configurado</string>
-    <string name="si_config">Configurado</string>
-    <string name="no_net">PhotoWord reuiere de su conexión a internet. Revise su conexión y reintente</string>
+    <string name="no_config">Unconfigured</string>
+    <string name="si_config">Configured</string>
+    <string name="no_net">PhotoWord requires internet connection. Check your connection and try again.</string>
     <!-- FAVS FRAGMENT -->
-    <string name="menu_del">Borrar</string>
-    <string name="del_pic_dlg">Seguro desea Eliminar este favorito?</string>
+    <string name="menu_del">Remove</string>
+    <string name="del_pic_dlg">Sure you want delete this favorite?</string>
+    <string name="no_favs">It\'s lonely in here. Once you\'ve sharing pics and marked it as favourite, you\'ll find them here.</string>
+    <string name="title_activity_FullScreenViewActivity">Favorites</string>
     <!-- TEMPLATES ACTIVITY -->
-    <string name="accent_color">Color de la plantilla</string>
-    <string name="theme_0_1">Sabes que palabras se forman con</string>
+    <string name="accent_color">Template\'s color</string>
+    <string name="theme_0_1">Do you know which words can be formed with:</string>
     <string name="theme_0_2">#PhotoWord</string>
-    <string name="finding_word">Buscando palabras...</string>
-    <string name="sel_theme">Deslize para visualizar los tema, toque para seleccionar</string>
+    <string name="finding_word">Searching words&#8230;</string>
+    <string name="sel_theme">Slide to display templates, touch to select them.</string>
 
     <!-- EDIT WORD ACTIVITY -->
-    <string name="no_word">No ingresó una palabra válida.</string>
+    <string name="no_word">Please, enter a valid word.</string>
     <string name="edit">Edit</string>
     <string name="done">Done</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_fragment_settings">Fragment Settings</string>
-    <string name="title_activity_fragment_favs">Favoritos</string>
-    <string name="title_activity_edit_word">Take Photo</string>
+    <string name="title_activity_edit_word">New photo</string>
     <string name="takepic03">PhotoWord</string>
     <string name="editword_word">Word: </string>
-    <string name="editword_inword">Enter word</string>
-    <string name="menu_edit">Edit photo</string>
+    <string name="editword_inword">Input a word</string>
+    <string name="menu_edit">Edit Pic</string>
     <string name="title_activity_login_twitter">Login Twitter</string>
-    <string name="title_activity_templates">Plantillas</string>
+    <string name="title_activity_templates">Templates</string>
     <!-- SHAREX ACTIVITY -->
-    <string name="title_activity_sharex">Compartir</string>
-    <string name="menu_cancel">Cancelar</string>
-    <string name="menu_share">Compartir</string>
-    <string name="redes_sociales">Redes Sociales</string>
-    <string name="add_fav">Agregar a Favoritos</string>
-    <string name="texto_largo">Texto muy largo acortar automáticamente?</string>
-    <string name="error_no_save_fav">Lo sentimos, no se a podido guardar en favoritos.</string>
+    <string name="title_activity_sharex">Share</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_share">Share</string>
+    <string name="redes_sociales">Social networks</string>
+    <string name="add_fav">Add to Favorites</string>
+    <string name="texto_largo">Text too long, shorten automatically?</string>
+    <string name="error_no_save_fav">Sorry, not able to save to favorites.</string>
 
     <!-- MAIN ACTIVITY -->
-    <string name="title_section1">Foto</string>
-    <string name="title_section2">Favoritos</string>
-    <string name="title_section3">Config.</string>
+    <string name="title_section1">Photo</string>
+    <string name="title_section2">Favorites</string>
+    <string name="title_section3">Setting</string>
     <string name="app_name">PhotoWord</string>
-    <string name="no_sdcard">El dispositivo de almacenamiento no está listo,PhotoWord no puede trabajar así.</string>
+    <string name="no_sdcard">The storage device is not ready, PhotoWord can\'t work fine.</string>
     <string name="error_title">PhotoWord Error</string>
-    <string name="error_file_mess">Ha ocurrido un error al crear el archivo.</string>
+    <string name="error_file_mess">Sorry. An error occurred while creating a file.</string>
     <string name="action_settings">Settings</string>
 
 </resources>

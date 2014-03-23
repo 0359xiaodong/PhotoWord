@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -16,7 +15,6 @@ import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 public class FileUtilities {
 
@@ -101,7 +99,7 @@ public class FileUtilities {
 			File[] listFiles = directory.listFiles();
 
 			// Check for count
-			if (listFiles.length > 0) {
+			if (listFiles != null && listFiles.length > 0) {
 
 				// loop through all files
 				for (int i = 0; i < listFiles.length; i++) {
