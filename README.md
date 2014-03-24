@@ -32,5 +32,7 @@ You can add and display your favorite pictures.
 
 ***
 ## Windows Phone 8.0 Project
-> This app current 6 month in WindowsPhone Store [WindowsPhoneStore-PhotoWord](http://bit.ly/photowordapp)
+> This app has been submitted on the Windows Phone Store 6 months ago and has 7000 + downloads [WindowsPhoneStore-PhotoWord](http://bit.ly/photowordapp).
+
 > This project will be available soon, one bug was found this 23/03/2014 because Facebook changed your API's config.
+I 'm working hard to correct it as soon as possible.
