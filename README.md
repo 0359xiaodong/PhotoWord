@@ -5,6 +5,15 @@
 Funny, take a picture or choose it from your gallery, you can edit it as desired, enter a word and select a template and a color, discover the result and share it in your social networks.
 You can add and display your favorite pictures.
 
+### Video
+> This is a small video showing the power of **PhotoWord**. Enjoy! [PhotoWord Promo](http://bit.ly/photowordpromo)
+
+### License
+> PhotoWord with its two code projects to Android &amp; Windows Phone has a GNU GENERAL PUBLIC LICENSE v3
+
+### Autor
+> Hi I'm Darwin Correa P. and I'm the unique autor of PhotoWord.
+
 ***
 ### Config project
 > You must register on the respective sites to create your app and get the API's keys.
@@ -12,8 +21,6 @@ You can add and display your favorite pictures.
 -   [Twitter developers](https://dev.twitter.com/)
 -   [Aviary developers](developers.aviary.com).
 
-### Video
-> This is a small video showing the power of **PhotoWord**. Enjoy! [PhotoWord Promo](http://bit.ly/photowordpromo)
 
 ***
 ## Android Project
