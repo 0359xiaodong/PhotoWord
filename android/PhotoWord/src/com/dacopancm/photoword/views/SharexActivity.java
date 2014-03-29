@@ -158,7 +158,7 @@ public class SharexActivity extends ActionBarActivity {
 						savedInstanceState);
 			}
 
-			if (session == null) {
+			if (session == null || (session.isOpened() && !checkPermissions())) {
 				session = new Session(this);
 			}
 			Session.setActiveSession(session);
@@ -234,7 +234,7 @@ public class SharexActivity extends ActionBarActivity {
 										: "no error"));
 						if (error != null)
 							Toast.makeText(getApplicationContext(),
-									error.getErrorMessage(), Toast.LENGTH_SHORT)
+									error.getErrorMessage(), Toast.LENGTH_LONG)
 									.show();
 						else
 							Toast.makeText(getApplicationContext(),

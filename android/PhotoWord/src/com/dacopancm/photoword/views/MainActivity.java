@@ -23,7 +23,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 
-import com.dacopancm.photoword.helpers.Const;
 import com.dacopancm.photoword.helpers.FileUtilities;
 
 public class MainActivity extends ActionBarActivity implements

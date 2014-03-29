@@ -189,9 +189,8 @@ public class SettingsFragment extends Fragment {
 	private boolean requestingPermissions = false;
 
 	public void requestPermissions() {
-
 		Session s = Session.getActiveSession();
-		if (s != null && s.isOpened() && !checkPermissions()) {
+		if (s != null && !checkPermissions()) {
 			requestingPermissions = true;
 			Log.e(TAG, "requesting permissions");
 			s.requestNewPublishPermissions(new Session.NewPermissionsRequest(
@@ -211,18 +210,21 @@ public class SettingsFragment extends Fragment {
 
 	private void facebookLogin() {
 		Session session = Session.getActiveSession();
-
+		requestingPermissions = false;
 		if (!session.isOpened() && !session.isClosed()) {
 			Log.e(TAG, "facebookLogin() open for publish");
-			session.openForPublish(new Session.OpenRequest(this)
-					.setPermissions(
-							Arrays.asList("publish_actions", "publish_stream"))
+			session.openForRead(new Session.OpenRequest(this)
 					.setCallback(statusCallback));
+
+			/*
+			 * session.openForPublish(new Session.OpenRequest(this)
+			 * .setPermissions( Arrays.asList("publish_actions",
+			 * "publish_stream")) .setCallback(statusCallback));
+			 */
 		} else {
 			try {
 				Log.e(TAG, "facebookLogin open login dialog");
 				Session.openActiveSession(getActivity(), true, statusCallback);
-				requestingPermissions = false;
 			} catch (Exception ex) {
 			}
 		}

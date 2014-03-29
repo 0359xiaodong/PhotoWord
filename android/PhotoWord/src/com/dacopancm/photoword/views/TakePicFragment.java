@@ -122,15 +122,16 @@ public class TakePicFragment extends Fragment {
 	private boolean checkFacebook() {
 		try {
 			Session session = Session.getActiveSession();
-			session = new Session(getActivity());
+			if (session == null) {
+				session = new Session(getActivity());
+			}
 			Session.setActiveSession(session);
-			/*
-			 * if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED))
-			 * { session.openForRead(new Session.OpenRequest(this)); }
-			 */
-			return (session.getState()
-					.equals(SessionState.CREATED_TOKEN_LOADED) || session
-					.isOpened());
+
+			if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)
+					|| session.isOpened()) {
+				return true;
+			}
+			return false;
 		} catch (Exception ex) {
 			return false;
 		}
