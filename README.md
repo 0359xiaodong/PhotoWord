@@ -24,6 +24,8 @@ You can add and display your favorite pictures.
 
 ***
 ## Android Project
+### Version
+ Current version: 1.0.2
 ### Config project
 1. In **src\com\dacopancm\photoword\helpers\Const.java** replace your API's keys:
        -       `public static String CONSUMER_KEY = "YOUR_CONSUMER_KEY";`
@@ -43,3 +45,6 @@ You can add and display your favorite pictures.
 
 > This project will be available soon, one bug was found this 23/03/2014 because Facebook changed your API's config.
 I 'm working hard to correct it as soon as possible.
+
+### Version
+ Current version: 1.0.1
