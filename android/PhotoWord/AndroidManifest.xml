@@ -26,7 +26,7 @@
         <!-- Main Editor Activity -->
         <meta-data
             android:name="com.aviary.android.feather.v1.API_KEY"
-            android:value="YOUR_AVIARY_API_KEY" />
+            android:value="b522aeb15c7a283e" />
 
         <activity
             android:name="com.aviary.android.feather.FeatherActivity"
@@ -63,25 +63,7 @@
         <!--
         Cds Content Provider, 
         NOTE that the "authorities" value MUST be formatted in this way:
-        android:authorities="{your.packagename}.AviaryCdsProvider"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        android:authorities="{your.packagename}.AviaryCdsProvider"
         -->
         <provider
             android:name="com.aviary.android.feather.cds.AviaryCdsProvider"

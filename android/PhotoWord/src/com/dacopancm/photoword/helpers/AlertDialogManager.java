@@ -1,14 +1,11 @@
 package com.dacopancm.photoword.helpers;
 
-
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.util.Log;
 
 import com.dacopancm.photoword.views.R;
-
-
-
-
 
 public class AlertDialogManager {
 	/**
@@ -38,12 +35,14 @@ public class AlertDialogManager {
 			// Setting alert dialog icon
 			alertDialog.setIcon((status) ? R.drawable.ic_action_about
 					: R.drawable.ic_action_error);
-
+		alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK",
+				new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int id) {
+						Log.i("Dialogos", "Confirmacion Cancelada.");
+						dialog.cancel();
+					}
+				});
 		// Setting OK Button
-		
-		  
-		 
-		 
 
 		// Showing Alert Message
 		alertDialog.show();

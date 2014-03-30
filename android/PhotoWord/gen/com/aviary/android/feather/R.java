@@ -567,7 +567,7 @@ public final class R {
 		public static final int aviary_wheel_shadow_bottom = 0x7f0200ee;
 		public static final int hlv_overscroll_edge = 0x7f020117;
 		public static final int hlv_overscroll_glow = 0x7f020118;
-		public static final int ic_stickers = 0x7f020122;
+		public static final int ic_stickers = 0x7f020121;
 	}
 	public static final class id {
 		public static final int alwaysScroll = 0x7f06000f;

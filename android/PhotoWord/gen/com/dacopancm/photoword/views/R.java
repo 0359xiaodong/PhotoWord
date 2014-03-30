@@ -3216,7 +3216,7 @@ containing a value of this type.
         public static final int com_facebook_list_section_header_background=0x7f0200ff;
         public static final int com_facebook_loginbutton_silver=0x7f020100;
         public static final int com_facebook_logo=0x7f020101;
-        public static final int com_facebook_picker_default_separator_color=0x7f020125;
+        public static final int com_facebook_picker_default_separator_color=0x7f020124;
         public static final int com_facebook_picker_item_background=0x7f020102;
         public static final int com_facebook_picker_list_focused=0x7f020103;
         public static final int com_facebook_picker_list_longpressed=0x7f020104;
@@ -3247,11 +3247,10 @@ containing a value of this type.
         public static final int ic_action_settings=0x7f02011d;
         public static final int ic_action_star=0x7f02011e;
         public static final int ic_launcher=0x7f02011f;
-        public static final int ic_launcher2=0x7f020120;
-        public static final int ic_launcher96=0x7f020121;
-        public static final int ic_stickers=0x7f020122;
-        public static final int icon=0x7f020123;
-        public static final int twitter=0x7f020124;
+        public static final int ic_launcher96=0x7f020120;
+        public static final int ic_stickers=0x7f020121;
+        public static final int icon=0x7f020122;
+        public static final int twitter=0x7f020123;
     }
     public static final class id {
         public static final int GridLayout1=0x7f0600da;
@@ -3396,7 +3395,7 @@ containing a value of this type.
         public static final int facecheck=0x7f060054;
         public static final int feather_dialogs_container=0x7f060095;
         public static final int geometry=0x7f0600e4;
-        public static final int grid_view=0x7f0600d5;
+        public static final int grid_view=0x7f0600d4;
         public static final int home=0x7f060023;
         public static final int homeAsUp=0x7f060014;
         public static final int horizontal=0x7f06000d;
@@ -3434,7 +3433,7 @@ containing a value of this type.
         public static final int navbar_text1=0x7f060096;
         public static final int navbar_text2=0x7f06009a;
         public static final int never=0x7f060018;
-        public static final int nofavs=0x7f0600d4;
+        public static final int nofavsx=0x7f0600d5;
         public static final int nonblank=0x7f060071;
         public static final int none=0x7f06001f;
         public static final int normal=0x7f060001;
@@ -3841,9 +3840,9 @@ containing a value of this type.
  TEMPLATES ACTIVITY 
          */
         public static final int accent_color=0x7f0900d9;
-        public static final int action_settings=0x7f0900f6;
+        public static final int action_settings=0x7f0900f7;
         public static final int add_fav=0x7f0900ec;
-        public static final int app_name=0x7f0900f2;
+        public static final int app_name=0x7f0900f3;
         public static final int authenticating_your_app_message=0x7f0900ca;
         /**  
 	############################ MEME ####################
@@ -3884,10 +3883,10 @@ containing a value of this type.
         public static final int edit=0x7f0900df;
         public static final int editword_inword=0x7f0900e4;
         public static final int editword_word=0x7f0900e3;
-        public static final int error_file_mess=0x7f0900f5;
-        public static final int error_no_save_fav=0x7f0900ee;
+        public static final int error_file_mess=0x7f0900f6;
+        public static final int error_no_save_fav=0x7f0900ef;
         public static final int error_no_social=0x7f0900cf;
-        public static final int error_title=0x7f0900f4;
+        public static final int error_title=0x7f0900f5;
         /**  TWITTER END 
  FACEBOOK 
  TWITTER END 
@@ -4070,7 +4069,8 @@ containing a value of this type.
         public static final int no_config=0x7f0900d2;
         public static final int no_favs=0x7f0900d7;
         public static final int no_net=0x7f0900d4;
-        public static final int no_sdcard=0x7f0900f3;
+        public static final int no_sdcard=0x7f0900f4;
+        public static final int no_social_select=0x7f0900ee;
         /**  EDIT WORD ACTIVITY 
  EDIT WORD ACTIVITY 
          */
@@ -4106,9 +4106,9 @@ containing a value of this type.
         /**  MAIN ACTIVITY 
  MAIN ACTIVITY 
          */
-        public static final int title_section1=0x7f0900ef;
-        public static final int title_section2=0x7f0900f0;
-        public static final int title_section3=0x7f0900f1;
+        public static final int title_section1=0x7f0900f0;
+        public static final int title_section2=0x7f0900f1;
+        public static final int title_section3=0x7f0900f2;
         /**  SETTINGS FRAGMENT 
  SETTINGS FRAGMENT 
          */

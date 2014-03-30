@@ -204,6 +204,12 @@ public class SharexActivity extends ActionBarActivity {
 					getString(R.string.no_net), false);
 			return;
 		}
+		if (!tcheck.isChecked() && !facecheck.isChecked()) {
+			new AlertDialogManager().showAlertDialog(this,
+					getString(R.string.error_title),
+					getString(R.string.no_social_select), false);
+			return;
+		}
 		if (tcheck.isChecked()
 				&& bubble.getText().toString().length() > MAX_LENGTH) {
 			FragmentManager fragmentManager = getSupportFragmentManager();

@@ -12,7 +12,7 @@
 
 
     <!-- FACEBOOK -->
-    <string name="face_appid">YOUR_FACEBOOOK_APPID</string>
+    <string name="face_appid">177382045800000</string>
     <!-- FACEBOOK END -->
 
 
@@ -57,6 +57,7 @@
     <string name="redes_sociales">Redes Sociales</string>
     <string name="add_fav">Agregar a Favoritos</string>
     <string name="texto_largo">Texto muy largo acortar automáticamente?</string>
+    <string name="no_social_select">Seleccione al menos una red social para compartir.</string>
     <string name="error_no_save_fav">Lo sentimos, no se ha podido guardar en favoritos.</string>
 
     <!-- MAIN ACTIVITY -->

@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
-import android.widget.TextView;
 
 import com.dacopancm.photoword.helpers.Const;
 import com.dacopancm.photoword.helpers.FileUtilities;
@@ -23,13 +22,26 @@ public class FavsFragment extends Fragment {
 	private ArrayList<String> imagePaths = new ArrayList<String>();
 	private GridViewImageAdapter adapter;
 	private GridView gridView;
-	private TextView nofavs;
+	private View nofavs;
 	private int columnWidth;
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		Log.e(TAG, "favsFragment onActivityCreated");
 		super.onActivityCreated(savedInstanceState);
+	}
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		Log.e(TAG, "favsFragment onCreateView");
+		// Inflate the layout for this fragment
+		View view = inflater.inflate(R.layout.fragment_favs, container, false);
+		gridView = (GridView) view.findViewById(R.id.grid_view);
+		nofavs = view.findViewById(R.id.nofavsx);
+		// Initilizing Grid View
+		InitilizeGridLayout();
+		return view;
 	}
 
 	@Override
@@ -59,19 +71,6 @@ public class FavsFragment extends Fragment {
 			gridView.setVisibility(View.INVISIBLE);
 		}
 
-	}
-
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		Log.e(TAG, "favsFragment onCreateView");
-		// Inflate the layout for this fragment
-		View view = inflater.inflate(R.layout.fragment_favs, container, false);
-		gridView = (GridView) view.findViewById(R.id.grid_view);
-		nofavs = (TextView) view.findViewById(R.id.nofavs);
-		// Initilizing Grid View
-		InitilizeGridLayout();
-		return view;
 	}
 
 	private void InitilizeGridLayout() {
