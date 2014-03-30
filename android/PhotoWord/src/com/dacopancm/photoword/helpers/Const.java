@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Const {
-	public static String CONSUMER_KEY = "YOUR_CONSUMER_KEY";
-	public static String CONSUMER_SECRET = "YOUR_CONSUMER_SECRET";
+	public static String CONSUMER_KEY = "kSxWRj8f1aNG5UhQ7BzmA";
+	public static String CONSUMER_SECRET = "aNWWp0DMlKORhpaOXtqCWzyKLvlrpxy2EepM2wEoOQ";
 
 	public static String PREFERENCE_NAME = "twitter_oauth";
 	public static final String PREF_KEY_SECRET = "oauth_token_secret";

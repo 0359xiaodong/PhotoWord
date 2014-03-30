@@ -126,7 +126,7 @@ public class TakePicFragment extends Fragment {
 				session = new Session(getActivity());
 			}
 			Session.setActiveSession(session);
-
+			Log.e("Take pic fragment", "session is: " + session.getState());
 			if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)
 					|| session.isOpened()) {
 				return true;

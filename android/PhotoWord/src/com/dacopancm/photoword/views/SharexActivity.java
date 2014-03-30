@@ -152,7 +152,7 @@ public class SharexActivity extends ActionBarActivity {
 
 		Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
 		Session session = Session.getActiveSession();
-		if (session == null) {
+		if (session == null || (session.isOpened() && !checkPermissions())) {
 			if (savedInstanceState != null) {
 				session = Session.restoreSession(this, null, statusCallback,
 						savedInstanceState);
@@ -160,6 +160,7 @@ public class SharexActivity extends ActionBarActivity {
 
 			if (session == null || (session.isOpened() && !checkPermissions())) {
 				session = new Session(this);
+				Log.e(TAG, "session new ?" + session.getState());
 			}
 			Session.setActiveSession(session);
 			if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)) {
@@ -262,7 +263,7 @@ public class SharexActivity extends ActionBarActivity {
 				Bundle postParams = new Bundle();
 
 				postParams.putString("name", bubble.getText().toString());
-				// postParams.putString("link", "http://www.stackoverflow.com");
+				postParams.putString("link", "http://www.daocpancm.hol.es.com");
 				postParams.putString("description", "PhotoWord");
 				postParams.putString("caption", bubble.getText().toString());
 				postParams.putByteArray("picture", data);

@@ -52,13 +52,13 @@ public class SettingsFragment extends Fragment {
 
 		Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
 		Session session = Session.getActiveSession();
-		if (session == null) {
+		if (session == null || (session.isOpened() && !checkPermissions())) {
 			if (savedInstanceState != null) {
 				session = Session.restoreSession(getActivity(), null,
 						statusCallback, savedInstanceState);
 			}
 
-			if (session == null) {
+			if (session == null || (session.isOpened() && !checkPermissions())) {
 				session = new Session(getActivity());
 			}
 			Session.setActiveSession(session);
