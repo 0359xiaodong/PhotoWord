@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TWITTER -->
+    <!-- loading messages -->
+    <string name="please_wait_title">Espere&#8230; </string>
+    <string name="authenticating_your_app_message"> Autenticando </string>
+    <!-- toast -->
+    <string name="image_posted_on_twitter">Imagen subida a Twitter con éxito</string>
+
+    <!-- TWITTER END -->
+
+
+    <!-- FACEBOOK -->
+    <string name="face_appid">177382045800000</string>
+    <!-- FACEBOOK END -->
+
+
+    <!-- TAKE PIC FRAGMENT -->
+    <string name="takepic01">Cámara</string>
+    <string name="takepic02">Galería</string>
+    <string name="error_no_social">Primero configure una red social para continuar.</string>
+
+    <!-- SETTINGS FRAGMENT -->
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_config">No Configurado</string>
+    <string name="si_config">Configurado</string>
+    <string name="no_net">PhotoWord requiere de su conexión a internet. Revise su conexión y reintente</string>
+    <!-- FAVS FRAGMENT -->
+    <string name="menu_del">Eliminar</string>
+    <string name="del_pic_dlg">Seguro desea Eliminar este favorito?</string>
+    <string name="no_favs">Que vacío está esto. Cuando agregues favoritos al compartir, los verás aquí.</string>
+    <string name="title_activity_FullScreenViewActivity">Favoritos</string>
+    <!-- TEMPLATES ACTIVITY -->
+    <string name="accent_color">Color de la plantilla</string>
+    <string name="theme_0_1">Sabes que palabras se forman con:</string>
+    <string name="theme_0_2">#PhotoWord</string>
+    <string name="finding_word">Buscando palabras&#8230;</string>
+    <string name="sel_theme">Deslize para visualizar los temas, toque para seleccionar</string>
+
+    <!-- EDIT WORD ACTIVITY -->
+    <string name="no_word">No ingresó una palabra válida.</string>
+    <string name="edit">Editar</string>
+    <string name="done">Hecho</string>
+    <string name="title_activity_edit_word">Nueva Foto</string>
+    <string name="takepic03">PhotoWord</string>
+    <string name="editword_word">Palabra: </string>
+    <string name="editword_inword">Ingrese una Palabra</string>
+    <string name="menu_edit">Editar Foto</string>
+    <string name="title_activity_login_twitter">Login Twitter</string>
+    <string name="title_activity_templates">Plantillas</string>
+    <!-- SHAREX ACTIVITY -->
+    <string name="title_activity_sharex">Compartir</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="redes_sociales">Redes Sociales</string>
+    <string name="add_fav">Agregar a Favoritos</string>
+    <string name="texto_largo">Texto muy largo acortar automáticamente?</string>
+    <string name="no_social_select">Seleccione al menos una red social para compartir.</string>
+    <string name="error_no_save_fav">Lo sentimos, no se ha podido guardar en favoritos.</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="title_section1">Foto</string>
+    <string name="title_section2">Favoritos</string>
+    <string name="title_section3">Config.</string>
+    <string name="app_name">PhotoWord</string>
+    <string name="no_sdcard">El dispositivo de almacenamiento no está listo,PhotoWord no puede trabajar así.</string>
+    <string name="error_title">PhotoWord Error</string>
+    <string name="error_file_mess">Ha ocurrido un error al crear el archivo.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
